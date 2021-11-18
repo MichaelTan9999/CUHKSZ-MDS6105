@@ -9,7 +9,7 @@ class coin:
     
     def flip(self, counts = 1) -> None:
         """
-        mock flips, by default, it toss coin once.
+        mock flips, by default, it tosses coin once.
         """
 
         for _ in range(counts):
