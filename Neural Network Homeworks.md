@@ -1,6 +1,4 @@
-# Neural Network Homeworks
-
-### 1. What is a threshold / activation function?
+### s1. What is a threshold / activation function?
 
 In neural networks, an activation function is the function that describes the output behaviour of a neuron. Most network architectures start by computing the weighted sum of the inputs (that is, the sum of the product of each input with the weight associated with that input. This quantity, the total net input is then usually transformed in some way, using what is sometimes called a squashing function. The simplest squashing function is a step function: if the total net input is less than 0 (or more generally, less than some threshold T) then the output of the neuron is 0, otherwise it is 1. A common squashing function is the logistic function.
 In summary, the activation function is the result of applying a squashing function to the total net input.
@@ -8,6 +6,16 @@ In summary, the activation function is the result of applying a squashing functi
 ### 2. What is a logit (coming from logistic)?
 
 In statistics, the logit function is the quantile function associated with the standard logistic distribution. It has many uses in data analysis and machine learning, especially in data transformations.
+
+![](https://upload.wikimedia.org/wikipedia/commons/8/88/Logistic-curve.svg)
+
+$f(x)=\frac{L}{1+e^{-k(x-x_0)}}$, where
+
+$x_0$, the $x$ value of the sigmoid's mid point;
+
+$L$, the curve's maximum value;
+
+$k$, the logistic growth rate or steepness of the curve.
 
 ### 3. What is hidden layer?
 
